@@ -8,3 +8,4 @@ Java Programming Question solved  -
 6) Write a program to find factorial of a number.
 7) write a program to print n'th fibonacci serise.
 8) Write a program to check number is prime or not. 
+9) Write a program to check whether two string are anagram or not.
