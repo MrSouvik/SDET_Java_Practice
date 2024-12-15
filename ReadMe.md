@@ -9,3 +9,5 @@ Java Programming Question solved  -
 7) write a program to print n'th fibonacci serise.
 8) Write a program to check number is prime or not. 
 9) Write a program to check whether two string are anagram or not.
+10) Write a program to implement sorting elements in an unsorted array - i) Bubble sort ii) Insertion sort
+11) Write a program to find a element from an sorted array using binary search 
