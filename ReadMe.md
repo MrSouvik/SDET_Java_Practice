@@ -11,3 +11,7 @@ Java Programming Question solved  -
 9) Write a program to check whether two string are anagram or not.
 10) Write a program to implement sorting elements in an unsorted array - i) Bubble sort ii) Insertion sort
 11) Write a program to find a element from an sorted array using binary search 
+12) Write a program to Remove junk/special character from string 
+13) Write a program to reverse a number
+14) Write a program Find missing number in an array
+15) Write a program to find duplicate element in an array

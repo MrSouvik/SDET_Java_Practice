@@ -5,18 +5,67 @@ public class Q10_ArraySorting {
 		
 		// Writing a program to implement sorting elements in an unsorted array
 		int[] numbers = {3,2,4,1};
-		//bubbleSort(numbers);
-		
 		int low = 0;
 		int high = numbers.length - 1;
+		
+		//bubbleSort(numbers);
 		//quickSort(numbers,low,high);
 		//selectionSort(numbers);
-		insertionSort(numbers);
-		System.out.print("After sorting elements using Quick sort  : ");
+		//insertionSort(numbers);
+		mergeSort(numbers,low,high);
+		System.out.print("After sorting elements: ");
 		for(int n :numbers) {
 			System.out.print(n+" ");
 		}
 	}
+
+	private static void mergeSort(int[] numbers, int low, int high) {
+		if(low<=high) {
+			return;
+		}
+		int mid  = (high + low)/2;
+		//sort first and second halves
+		mergeSort(numbers, low, mid);
+		mergeSort(numbers, mid+1, high);
+		//Merge the sorted halves
+		merge(numbers,low,high, mid);
+		
+	}
+
+	private static void merge(int[] numbers, int low, int high, int mid) {
+		int merged[] = new int[high-low+1];
+		
+		int index_1 = low;
+		int index_2 = mid + 1;
+		int i = 0;
+		
+		while(index_1<=mid && index_2<=high) {
+			if(numbers[index_1]>numbers[index_2]) {
+				merged[i] = numbers[index_1];
+				i++;
+				index_1++;
+			}
+			else {
+				merged[i] = numbers[index_2];
+				i++;
+				index_2++;
+			}
+		}
+		while(index_1<=mid) {
+			merged[i] = numbers[index_1];
+			i++;
+			index_1++;
+		}
+		while(index_2<=high) {
+			merged[i] = numbers[index_2];
+			i++;
+			index_1++;
+		}
+		int j = low;
+		for(int x = 0;x<merged.length;x++) {
+			numbers[j] = merged[i];
+		}
+ 	}
 
 	private static void insertionSort(int[] numbers) {
 		for(int i = 1; i<numbers.length; i++) {
