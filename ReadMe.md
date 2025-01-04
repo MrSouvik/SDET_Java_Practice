@@ -15,3 +15,5 @@ Java Programming Question solved  -
 13) Write a program to reverse a number
 14) Write a program Find missing number in an array
 15) Write a program to find duplicate element in an array
+16) String Manipulation
+17) Write a program to swap two number without using third variable 
