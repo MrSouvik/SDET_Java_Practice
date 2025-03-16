@@ -17,3 +17,9 @@ Java Programming Question solved  -
 15) Write a program to find duplicate element in an array
 16) String Manipulation
 17) Write a program to swap two number without using third variable 
+18) Write a code to swap two string without any third variable
+19) Final finally Finalize keyword
+20) Write a program to find the maximum and minimum values in an array of integers.
+21) Write a program to reverse the elements of an array without using an additional array.
+22) Write a program to count the number of even and odd numbers in an array of integers.
+23) Write a program to search for an element in an array and return its index. If the element is not found, display a message.
