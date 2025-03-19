@@ -23,3 +23,7 @@ Java Programming Question solved  -
 21) Write a program to reverse the elements of an array without using an additional array.
 22) Write a program to count the number of even and odd numbers in an array of integers.
 23) Write a program to search for an element in an array and return its index. If the element is not found, display a message.
+24)	Write a program to print no of occurence of an array
+25)	Write a program Find the second largest element in an array
+26)	Write a program to check palindrom of the array
+27)	Write a program to rotate an array to the right by a given number of steps.
