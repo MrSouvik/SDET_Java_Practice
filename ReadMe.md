@@ -31,3 +31,5 @@ Java Programming Question solved  -
 29) Write a java code for bringing all the zeros to the front in an array
 30) Write a program to remove the integers and print the string
 31) Given array and asked to print in ascending and descending order with out using sorting methods
+32) Give an array int arr[] = {2,5,8,7,1,3,6,4,5,9}; shift all even numbers to the left and odd numbers to 
+ the right. optimize if it is possible

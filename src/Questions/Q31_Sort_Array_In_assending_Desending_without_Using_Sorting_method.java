@@ -1,6 +1,6 @@
 package Questions;
 
-public class Q30_Sort_Array_In_assending_Desending_without_Using_Sorting_method {
+public class Q31_Sort_Array_In_assending_Desending_without_Using_Sorting_method {
 	public static void main(String[] args) {
 		int nums [] = {1,5,8,0,6,3,7,9};
 		for(int i = 0; i<nums.length; i++) {
