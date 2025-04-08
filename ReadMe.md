@@ -33,3 +33,11 @@ Java Programming Question solved  -
 31) Given array and asked to print in ascending and descending order with out using sorting methods
 32) Give an array int arr[] = {2,5,8,7,1,3,6,4,5,9}; shift all even numbers to the left and odd numbers to 
  the right. optimize if it is possible
+33) Remove alphabet from given string and print integer
+34) Count Vowel in a string
+35) Count each character in a String
+36) Count word in a string
+37) Remove duplicates from the string Input is  String[] input={"abba", "babc","12abbcd"}; Output= abc12d
+38) Reverse only alphabet part
+39) Write a program To find the occurrences of character is 3 then  print that character in the string 
+40) Suppose we have string “Sou1234vik” output should be separating digit and word different “Souvik1234”
