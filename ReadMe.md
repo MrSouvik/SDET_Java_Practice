@@ -41,3 +41,7 @@ Java Programming Question solved  -
 38) Reverse only alphabet part
 39) Write a program To find the occurrences of character is 3 then  print that character in the string 
 40) Suppose we have string “Sou1234vik” output should be separating digit and word different “Souvik1234”
+41) Arrange the word based on the size in the string “I am doing well”  should be “doing well am I ”
+42) Merge two array
+43) Remove the  duplicates from the string while maintain sentence order note that the the letter should not appear the second time 
+
